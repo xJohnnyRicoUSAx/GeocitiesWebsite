@@ -1,0 +1,156 @@
+@font-face{
+    font-family: "Metal";
+    src: url(Fonts/metal\ lord.ttf) format("tff");
+    font-weight: normal;
+}
+html {
+    background: url(Images/sikbground.gif) 100% 100% ;
+    background-color: black;
+    
+    width: 100%;
+   
+    top: 0;
+    font-size: 20px;
+    padding: 0px;
+    margin-top: 0%;
+    text-align: center;
+ }
+
+ .head {
+     
+
+     position: fixed;
+
+     background-color: black;
+
+    width: 100%;
+     height: 180px;
+     margin-top: 0%;
+     margin-bottom: 0%;
+     padding: 0px;
+    
+ }
+
+
+
+
+.menu {
+
+    position: fixed;
+    
+    height: 50px;
+    margin-bottom: 5px;
+    margin-top: 80px;
+    float: center;
+    width: 100%;
+
+    background-image: url(Images/dots.gif);
+    background-size: 7px;
+    background-repeat: repeat-x;
+    background-position: top;
+   
+    
+    
+
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu li{
+    display: inline-block;
+}
+
+.logo{
+
+    height: 100px;
+
+    background-image: url(Images/alien.gif), url(Images/sikbground.gif);
+    background-repeat: repeat-x;
+    background-size: 50px;
+    align-content: top;
+    margin-top: 3px;
+
+    background-blend-mode: screen;
+    
+}
+
+
+.block{
+    
+    background-image: url(Images/dots.gif);
+    background-repeat: repeat-x;
+    background-size: 7px;
+    background-position: bottom;
+}
+
+
+.home:hover{
+    
+    background-image: url(Images/home2.png);
+    border: 0;
+    background-size: 160px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.about:hover{
+    background-image: url(Images/about2.png);
+    border: 0;
+    background-size: 178px;
+    display: inline-block;
+    background-repeat: no-repeat;
+
+}
+
+
+.chronology:hover{
+    background-image: url(Images/chronology2.png);
+    border: 0;
+    background-size: 320px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+
+.contact:hover{
+    background-image: url(Images/contact2.png);
+    border: 0;
+    background-size: 235px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+
+
+.column {
+    float: left;
+    padding-top: 200px;
+    padding-left: 10px;}
+
+ .column.left {
+    width: 15%;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ .column.middle {
+    width: 60%;
+    padding-left: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ .column.right {
+    width: 15%;
+    float:right;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Clear floats after the columns */
+ .row:after {
+    content: "";
+    display: table;
+    clear: both;}
